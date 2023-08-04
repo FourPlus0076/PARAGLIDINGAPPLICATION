@@ -10,6 +10,7 @@ namespace Application.TourAndTravel.Web.Models
     {
         [Key]
         public int ID { get; set; }
+        [Required]
         public string UserName { get; set; }
         public string UserPassword { get; set; }
     }
